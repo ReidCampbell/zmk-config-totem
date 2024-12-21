@@ -174,10 +174,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp W                &kp L            &kp Y            &kp P              &kp B          &kp Z            &kp F               &kp O             &kp U             &kp SQT
-       &hrm LEFT_CONTROL C  &hrm LEFT_ALT R  &hrm LEFT_GUI S  &hrm LEFT_SHIFT T  &kp G          &kp M            &hrm RIGHT_SHIFT N  &hrm RIGHT_GUI E  &hrm RIGHT_ALT I  &hrm RIGHT_CONTROL A
-&kp Q  &kp Q                &kp J            &kp V            &kp D              &kp K          &kp X            &kp H               &kp FSLH          &kp COMMA         &kp DOT               &kp SEMI
-                                             &mkp MB4         &mkp MB5           &lt 2 SPACE    &lt 1 BACKSPACE  &lt 3 DELETE        &kp ESC
+       &kp W                &kp L            &kp Y            &kp P              &kp B       &kp Z         &kp F               &kp O             &kp U             &kp SQT
+       &hrm LEFT_CONTROL C  &hrm LEFT_ALT R  &hrm LEFT_GUI S  &hrm LEFT_SHIFT T  &kp G       &kp M         &hrm RIGHT_SHIFT N  &hrm RIGHT_GUI E  &hrm RIGHT_ALT I  &hrm RIGHT_CONTROL A
+&kp Q  &kp Q                &kp J            &kp V            &kp D              &kp K       &kp X         &kp H               &kp FSLH          &kp COMMA         &kp DOT               &kp SEMI
+                                             &mkp MB4         &lt 2 SPACE        &mkp MB5    &lt 3 DELETE  &lt 1 BACKSPACE     &kp ESC
             >;
         };
 
