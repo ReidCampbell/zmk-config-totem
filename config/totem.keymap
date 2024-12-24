@@ -106,17 +106,17 @@
         };
 
         Undo {
-            bindings = <&kp K_UNDO>;
+            bindings = <&undo_macro>;
             key-positions = <2 3>;
         };
 
         Copy {
-            bindings = <&kp K_COPY>;
+            bindings = <&copy_macro>;
             key-positions = <12 13>;
         };
 
         Cut {
-            bindings = <&kp K_CUT>;
+            bindings = <&cut_macro>;
             key-positions = <12 13>;
             layers = <1>;
         };
