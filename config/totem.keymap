@@ -201,10 +201,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &trans  &trans                    &kp N7                    &kp N8                 &kp N9    &trans    &trans          &kp UP          &trans           &trans
-        &trans  &mt LEFT_ALT KP_NUMBER_0  &mt LEFT_GUI KP_NUMBER_4  &mt LSHFT KP_NUMBER_5  &kp N6    &kp HOME  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END
-&trans  &trans  &trans                    &kp N1                    &kp N2                 &kp N3    &trans    &trans          &trans          &trans           &trans   &trans
-                                          &trans                    &trans                 &trans    &trans    &trans          &trans
+        &trans  &trans                    &kp N7                    &kp N8                 &kp N9      &trans    &trans          &kp UP          &trans           &trans
+        &trans  &mt LEFT_ALT KP_NUMBER_0  &mt LEFT_GUI KP_NUMBER_4  &mt LSHFT KP_NUMBER_5  &kp N6      &kp HOME  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END
+&trans  &trans  &trans                    &kp N1                    &kp N2                 &kp N3      &trans    &trans          &trans          &trans           &trans   &trans
+                                          &trans                    &trans                 &kp LGUI    &trans    &trans          &trans
             >;
         };
 
@@ -227,10 +227,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-            &kp EXCL                      &kp AT                           &kp POUND                        &kp DLLR                           &kp PRCNT                 &kp CARET  &kp AMPS   &kp ASTERISK   &trans     &trans
-            &mt LCTRL LS(LA(LC(LG(F4))))  &mt LEFT_ALT LS(LA(LC(LG(F3))))  &mt LEFT_GUI LS(LA(LC(LG(F2))))  &mt LEFT_SHIFT LS(LA(LC(LG(F1))))  &kp LS(LA(LC(LG(F5))))    &kp MINUS  &kp EQUAL  &kp BACKSLASH  &kp GRAVE  &kp HASH
-&bt BT_NXT  &kp LS(LA(LC(LG(F10))))       &kp LS(LA(LC(LG(F9))))           &kp LS(LA(LC(LG(F8))))           &kp LS(LA(LC(LG(F7))))             &kp LS(LA(LC(LG(F6))))    &kp UNDER  &kp PLUS   &kp PIPE       &kp TILDE  &trans    &bt BT_CLR_ALL
-                                                                           &trans                           &trans                             &trans                    &trans     &trans     &trans
+        &kp EXCL                      &kp AT                           &kp POUND                        &kp DLLR                           &kp PRCNT                 &kp CARET  &kp AMPS   &kp ASTERISK   &trans     &trans
+        &mt LCTRL LS(LA(LC(LG(F4))))  &mt LEFT_ALT LS(LA(LC(LG(F3))))  &mt LEFT_GUI LS(LA(LC(LG(F2))))  &mt LEFT_SHIFT LS(LA(LC(LG(F1))))  &kp LS(LA(LC(LG(F5))))    &kp MINUS  &kp EQUAL  &kp BACKSLASH  &kp GRAVE  &kp HASH
+&trans  &kp LS(LA(LC(LG(F10))))       &kp LS(LA(LC(LG(F9))))           &kp LS(LA(LC(LG(F8))))           &kp LS(LA(LC(LG(F7))))             &kp LS(LA(LC(LG(F6))))    &kp UNDER  &kp PLUS   &kp PIPE       &kp TILDE  &trans    &trans
+                                                                       &trans                           &trans                             &trans                    &trans     &trans     &trans
             >;
         };
 
@@ -253,10 +253,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans  &kp F7  &kp F8  &kp F9  &kp F12
-        &trans  &trans  &trans  &trans  &trans    &trans  &kp F4  &kp F5  &kp F6  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp F1  &kp F2  &kp F3  &kp F10  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+        &trans  &trans  &trans  &bt BT_NXT  &bt BT_CLR    &trans  &kp F7  &kp F8  &kp F9  &kp F12
+        &trans  &trans  &trans  &trans      &trans        &trans  &kp F4  &kp F5  &kp F6  &kp F11
+&trans  &trans  &trans  &trans  &trans      &trans        &trans  &kp F1  &kp F2  &kp F3  &kp F10  &trans
+                        &trans  &trans      &trans        &trans  &trans  &trans
             >;
         };
 
