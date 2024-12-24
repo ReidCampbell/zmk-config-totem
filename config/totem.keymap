@@ -111,14 +111,8 @@
         };
 
         Copy {
-            bindings = <&copy_macro>;
+            bindings = <&td_copy_cut>;
             key-positions = <12 13>;
-        };
-
-        Cut {
-            bindings = <&cut_macro>;
-            key-positions = <12 13>;
-            layers = <1>;
         };
     };
 
