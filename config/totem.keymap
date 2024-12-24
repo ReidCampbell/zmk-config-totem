@@ -106,6 +106,7 @@
         };
 
         Undo {
+            timeout-ms = <50>;
             bindings = <&undo_macro>;
             key-positions = <2 3>;
         };
