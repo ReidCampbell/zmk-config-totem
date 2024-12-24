@@ -36,8 +36,7 @@
             label = "TD_COPY_CUT";
             #binding-cells = <0>;
             bindings = <&copy_macro>, <&cut_macro>;
-
-            tapping-term-ms = <200>;
+            tapping-term-ms = <300>;
         };
 
         hrm: hrm {
