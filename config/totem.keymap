@@ -29,10 +29,6 @@
     tapping-term-ms = <170>;
 };
 
-&lt {
-    quick-tap-ms = <200>;
-};
-
 / {
     behaviors {
         td_copy_cut: td_copy_cut {
@@ -40,6 +36,7 @@
             label = "TD_COPY_CUT";
             #binding-cells = <0>;
             bindings = <&copy_macro>, <&cut_macro>;
+
             tapping-term-ms = <300>;
         };
 
@@ -117,6 +114,21 @@
         Copy {
             bindings = <&td_copy_cut>;
             key-positions = <12 13>;
+        };
+
+        switch {
+            bindings = <&kp LS(LA(LC(LG(F12))))>;
+            key-positions = <4 5>;
+        };
+
+        switch2 {
+            bindings = <&kp LS(LA(LC(LG(F11))))>;
+            key-positions = <14 15>;
+        };
+
+        switch3 {
+            bindings = <&kp LS(LC(LA(LG(F13))))>;
+            key-positions = <25 26>;
         };
     };
 
