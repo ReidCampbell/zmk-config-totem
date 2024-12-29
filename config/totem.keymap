@@ -29,6 +29,10 @@
     tapping-term-ms = <170>;
 };
 
+&lt {
+    quick-tap-ms = <200>;
+};
+
 / {
     behaviors {
         td_copy_cut: td_copy_cut {
