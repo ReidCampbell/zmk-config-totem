@@ -191,10 +191,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp W                &kp L            &kp Y            &kp P              &kp B       &kp Z         &kp F               &kp O             &kp U             &kp SQT
-       &hrm LEFT_CONTROL C  &hrm LEFT_ALT R  &hrm LEFT_GUI S  &hrm LEFT_SHIFT T  &kp G       &kp M         &hrm RIGHT_SHIFT N  &hrm RIGHT_GUI E  &hrm RIGHT_ALT I  &hrm RIGHT_CONTROL A
-&kp Q  &kp Q                &kp J            &kp V            &kp D              &kp K       &kp X         &kp H               &kp FSLH          &kp COMMA         &kp DOT               &kp SEMI
-                                             &mkp MB4         &lt 2 SPACE        &mkp MB5    &lt 3 DELETE  &lt 1 BACKSPACE     &kp ESC
+                         &kp W                &kp L            &kp Y            &kp P              &kp B       &kp Z         &kp F               &kp O             &kp U             &kp SQT
+                         &hrm LEFT_CONTROL C  &hrm LEFT_ALT R  &hrm LEFT_GUI S  &hrm LEFT_SHIFT T  &kp G       &kp M         &hrm RIGHT_SHIFT N  &hrm RIGHT_GUI E  &hrm RIGHT_ALT I  &hrm RIGHT_CONTROL A
+&kp LS(LA(LC(LG(F14))))  &kp Q                &kp J            &kp V            &kp D              &kp K       &kp X         &kp H               &kp FSLH          &kp COMMA         &kp DOT               &kp SEMI
+                                                               &mkp MB4         &lt 2 SPACE        &mkp MB5    &lt 3 DELETE  &lt 1 BACKSPACE     &kp ESC
             >;
         };
 
@@ -269,10 +269,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &trans  &trans  &trans  &bt BT_NXT  &bt BT_CLR    &trans  &kp F7  &kp F8  &kp F9  &kp F12
-        &trans  &trans  &trans  &trans      &trans        &trans  &kp F4  &kp F5  &kp F6  &kp F11
-&trans  &trans  &trans  &trans  &trans      &trans        &trans  &kp F1  &kp F2  &kp F3  &kp F10  &trans
-                        &trans  &trans      &trans        &trans  &trans  &trans
+        &trans  &trans  &trans      &bt BT_NXT  &bt BT_CLR    &trans  &kp F7  &kp F8  &kp F9  &kp F12
+        &trans  &trans  &kp LG(N4)  &kp LG(N5)  &kp LG(N6)    &trans  &kp F4  &kp F5  &kp F6  &kp F11
+&trans  &trans  &trans  &kp LG(N1)  &kp LG(N2)  &kp LG(N3)    &trans  &kp F1  &kp F2  &kp F3  &kp F10  &trans
+                        &trans      &trans      &trans        &trans  &trans  &trans
             >;
         };
 
