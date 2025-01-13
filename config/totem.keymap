@@ -52,6 +52,15 @@
             global-quick-tap;
             bindings = <&kp>, <&kp>;
         };
+
+        ht: ht {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HT_LAYER_MOUSE";
+            #binding-cells = <2>;
+            flavor = "balanced";         // or "tap-preferred" / "hold-preferred"
+            tapping-term-ms = <200>;     // tweak to your liking
+            bindings = <&mo>, <&mkp>;    // 1st: hold behavior, 2nd: tap behavior
+        };
     };
 
     combos {
@@ -196,7 +205,7 @@
                             &kp W                &kp L            &kp Y            &kp P              &kp B       &kp Z         &kp F               &kp O             &kp U             &kp SQT
                             &hrm LEFT_CONTROL C  &hrm LEFT_ALT R  &hrm LEFT_GUI S  &hrm LEFT_SHIFT T  &kp G       &kp M         &hrm RIGHT_SHIFT N  &hrm RIGHT_GUI E  &hrm RIGHT_ALT I  &hrm RIGHT_CONTROL A
 &kp LA(LC(LG(LEFT_SHIFT)))  &kp Q                &kp J            &kp V            &kp D              &kp K       &kp X         &kp H               &kp FSLH          &kp COMMA         &kp DOT               &kp SEMI
-                                                                  &kp ESC         &lt 2 SPACE        &kp BACKSPACE    &lt 3 MOUSE_BUTTON_BACKWARD  &lt 1 ENTER     &kp MOUSE_BUTTON_FORWARD
+                                                                     &mkp MB4         &lt 2 SPACE        &mkp MB5    &lt 3 DELETE  &lt 1 BACKSPACE     &kp ESC
             >;
         };
 
@@ -284,7 +293,7 @@
                             &kp W              &kp L         &kp Y            &kp P            &kp B       &kp Z         &kp F            &kp O            &kp U              &kp SQT
                             &hrm LEFT_SHIFT C  &hrm LCTRL R  &hrm LEFT_ALT S  &hrm LEFT_GUI T  &kp G       &kp M         &hrm LEFT_GUI N  &hrm LEFT_ALT E  &hrm LEFT_SHIFT I  &hrm RIGHT_CONTROL A
 &kp LA(LC(LG(LEFT_SHIFT)))  &kp Q              &kp J         &kp V            &kp D            &kp K       &kp X         &kp H            &kp FSLH         &kp COMMA          &kp DOT               &kp SEMI
-                                                             &mkp MB4         &lt 2 SPACE      &mkp MB5    &lt 3 DELETE  &lt 1 BACKSPACE  &kp ESC
+                                                                  &kp ESC         &lt 2 SPACE        &kp BACKSPACE    &ht 3 MB4  &lt 1 ENTER     &ht MB5
             >;
         };
 
