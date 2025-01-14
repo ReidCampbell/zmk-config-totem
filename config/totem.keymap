@@ -190,10 +190,10 @@
         layer_4 {
             label = "BASEtttntntntn";
             bindings = <
-                            &kp W              &kp L         &kp Y            &kp P            &kp B        &kp Z      &kp F            &kp O            &kp U                 &kp SQT
-                            &hrm LEFT_SHIFT C  &hrm LCTRL R  &hrm LEFT_ALT S  &hrm LEFT_GUI T  &kp G        &kp M      &hrm LEFT_GUI N  &hrm LEFT_ALT E  &hrm RIGHT_CONTROL I  &hrm LEFT_SHIFT A
-&kp LA(LC(LG(LEFT_SHIFT)))  &kp Q              &kp J         &kp V            &kp D            &kp K        &kp X      &kp H            &kp FSLH         &kp COMMA             &kp DOT            &kp SEMI
-                                                             &kp ESC          &lt 2 SPACE      &kp ENTER    &ht 3 MB4  &lt 1 BACKSPACE  &mkp MB5
+                            &kp W              &kp L         &kp Y            &kp P            &kp B                               &kp Z      &kp F            &kp O            &kp U                 &kp SQT
+                            &hrm LEFT_SHIFT C  &hrm LCTRL R  &hrm LEFT_ALT S  &hrm LEFT_GUI T  &kp G                               &kp M      &hrm LEFT_GUI N  &hrm LEFT_ALT E  &hrm RIGHT_CONTROL I  &hrm LEFT_SHIFT A
+&kp LA(LC(LG(LEFT_SHIFT)))  &kp Q              &kp J         &kp V            &kp D            &kp K                               &kp X      &kp H            &kp FSLH         &kp COMMA             &kp DOT            &kp SEMI
+                                                             &kp ESC          &lt 2 SPACE      &mt LA(LC(LG(LEFT_SHIFT))) ENTER    &ht 3 MB4  &lt 1 BACKSPACE  &mkp MB5
             >;
         };
 
@@ -214,10 +214,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &trans  &trans                    &kp N7                    &kp N8                 &kp N9      &trans    &kp PAGE_DOWN   &kp UP          &kp PAGE_UP      &trans
-        &trans  &mt LEFT_ALT KP_NUMBER_0  &mt LEFT_GUI KP_NUMBER_4  &mt LSHFT KP_NUMBER_5  &kp N6      &kp HOME  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END
-&trans  &trans  &trans                    &kp N1                    &kp N2                 &kp N3      &trans    &trans          &trans          &trans           &trans   &trans
-                                          &trans                    &trans                 &kp LGUI    &trans    &trans          &trans
+        &trans  &trans                 &kp N7                    &kp N8                    &kp N9      &trans    &kp PAGE_DOWN   &kp UP          &kp PAGE_UP      &trans
+        &trans  &mt LCTRL KP_NUMBER_0  &mt LEFT_ALT KP_NUMBER_4  &mt LEFT_GUI KP_NUMBER_5  &kp N6      &kp HOME  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END
+&trans  &trans  &trans                 &kp N1                    &kp N2                    &kp N3      &trans    &trans          &trans          &trans           &trans   &trans
+                                       &trans                    &trans                    &kp LGUI    &trans    &trans          &trans
             >;
         };
 
