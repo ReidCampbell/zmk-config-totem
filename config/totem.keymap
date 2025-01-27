@@ -158,6 +158,11 @@
             bindings = <&kp LS(LA(LC(LG(F14))))>;
             key-positions = <24 27>;
         };
+
+        Esc {
+            bindings = <&kp ESC>;
+            key-positions = <0 9>;
+        };
     };
 
     macros {
@@ -208,7 +213,7 @@
                             &kp W              &kp L         &kp Y            &kp P            &kp B                               &kp Z      &kp F            &kp O            &kp U                 &kp SQT
                             &hrm LEFT_SHIFT C  &hrm LCTRL R  &hrm LEFT_ALT S  &hrm LEFT_GUI T  &kp G                               &kp M      &hrm LEFT_GUI N  &hrm LEFT_ALT E  &hrm RIGHT_CONTROL I  &hrm LEFT_SHIFT A
 &kp LA(LC(LG(LEFT_SHIFT)))  &kp Q              &kp J         &kp V            &kp D            &kp K                               &kp X      &kp H            &kp FSLH         &kp COMMA             &kp DOT            &kp SEMI
-                                                             &kp ESC          &lt 2 SPACE      &mt LA(LC(LG(LEFT_SHIFT))) ENTER    &ht 3 MB4  &lt 1 BACKSPACE  &mkp MB5
+                                                             &kp TAB          &lt 2 SPACE      &mt LA(LC(LG(LEFT_SHIFT))) ENTER    &ht 3 MB4  &lt 1 BACKSPACE  &mkp MB5
             >;
         };
 
@@ -253,9 +258,9 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp EXCL                           &kp AT                        &kp POUND                        &kp DLLR                         &kp PRCNT                 &kp CARET  &kp AMPS   &kp ASTERISK   &trans     &trans
+        &kp EXCL                           &kp AT                        &kp POUND                        &kp DLLR                         &kp PRCNT                 &kp CARET  &kp AMPS   &kp ASTERISK   &kp SEMI   &kp COLON
         &mt LEFT_SHIFT LS(LA(LC(LG(F4))))  &mt LCTRL LS(LA(LC(LG(F3))))  &mt LEFT_ALT LS(LA(LC(LG(F2))))  &mt LEFT_GUI LS(LA(LC(LG(F1))))  &kp LS(LA(LC(LG(F5))))    &kp MINUS  &kp EQUAL  &kp BACKSLASH  &kp GRAVE  &kp HASH
-&trans  &kp LS(LA(LC(LG(F10))))            &kp LS(LA(LC(LG(F9))))        &kp LS(LA(LC(LG(F8))))           &kp LS(LA(LC(LG(F7))))           &kp LS(LA(LC(LG(F6))))    &kp UNDER  &kp PLUS   &kp PIPE       &kp TILDE  &trans    &trans
+&trans  &kp LS(LA(LC(LG(F10))))            &kp LS(LA(LC(LG(F9))))        &kp LS(LA(LC(LG(F8))))           &kp LS(LA(LC(LG(F7))))           &kp LS(LA(LC(LG(F6))))    &kp UNDER  &kp PLUS   &kp PIPE       &kp TILDE  &trans     &trans
                                                                          &trans                           &trans                           &trans                    &trans     &trans     &trans
             >;
         };
