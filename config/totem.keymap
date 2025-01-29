@@ -210,10 +210,10 @@
         layer_4 {
             label = "BASEtttntntntn";
             bindings = <
-                            &kp W              &kp L         &kp Y            &kp P            &kp B                               &kp Z            &kp F            &kp O            &kp U                 &kp SQT
-                            &hrm LEFT_SHIFT C  &hrm LCTRL R  &hrm LEFT_ALT S  &hrm LEFT_GUI T  &kp G                               &kp M            &hrm LEFT_GUI N  &hrm LEFT_ALT E  &hrm RIGHT_CONTROL I  &hrm LEFT_SHIFT A
-&kp LA(LC(LG(LEFT_SHIFT)))  &kp Q              &kp J         &kp V            &kp D            &kp K                               &kp X            &kp H            &kp FSLH         &kp COMMA             &kp DOT            &kp SEMI
-                                                             &kp TAB          &lt 2 ENTER      &mt LA(LC(LG(LEFT_SHIFT))) SPACE    &lt 3 BACKSPACE  &ht 1 MB4        &mkp MB5
+                            &kp W              &kp L         &kp Y            &kp P            &kp B                               &kp Z      &kp F            &kp O            &kp U                 &kp SQT
+                            &hrm LEFT_SHIFT C  &hrm LCTRL R  &hrm LEFT_ALT S  &hrm LEFT_GUI T  &kp G                               &kp M      &hrm LEFT_GUI N  &hrm LEFT_ALT E  &hrm RIGHT_CONTROL I  &hrm LEFT_SHIFT A
+&kp LA(LC(LG(LEFT_SHIFT)))  &kp Q              &kp J         &kp V            &kp D            &kp K                               &kp X      &kp H            &kp FSLH         &kp COMMA             &kp DOT            &kp SEMI
+                                                             &kp TAB          &lt 2 SPACE      &mt LA(LC(LG(LEFT_SHIFT))) ENTER    &ht 3 MB4  &lt 1 BACKSPACE  &mkp MB5
             >;
         };
 
