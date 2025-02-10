@@ -140,7 +140,7 @@
         };
 
         switch3 {
-            bindings = <&kp LS(LC(LA(LG(F13))))>;
+            bindings = <&kp LS(LC(LA(LG(F16))))>;
             key-positions = <25 26>;
         };
 
@@ -155,7 +155,7 @@
         };
 
         Switch6 {
-            bindings = <&kp LS(LA(LC(LG(F14))))>;
+            bindings = <&kp LS(LA(LC(LG(F15))))>;
             key-positions = <24 27>;
         };
 
