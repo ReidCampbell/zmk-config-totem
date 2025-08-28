@@ -259,8 +259,8 @@
 
             bindings = <
         &kp EXCL                           &kp AT                        &kp POUND                        &kp DLLR                         &kp PRCNT                 &kp CARET  &kp AMPS   &kp ASTERISK   &kp SEMI   &kp COLON
-        &mt LEFT_SHIFT LS(LA(LC(LG(F4))))  &mt LCTRL LS(LA(LC(LG(F3))))  &mt LEFT_ALT LS(LA(LC(LG(F2))))  &mt LEFT_GUI LS(LA(LC(LG(F1))))  &kp LS(LA(LC(LG(F5))))    &kp MINUS  &kp EQUAL  &kp BACKSLASH  &kp GRAVE  &kp NON_US_HASH
-&trans  &kp LS(LA(LC(LG(F10))))            &kp LS(LA(LC(LG(F9))))        &kp LS(LA(LC(LG(F8))))           &kp LS(LA(LC(LG(F7))))           &kp LS(LA(LC(LG(F6))))    &kp UNDER  &kp PLUS   &kp PIPE       &kp TILDE  &trans           &trans
+        &mt LEFT_SHIFT LS(LA(LC(LG(F4))))  &mt LCTRL LS(LA(LC(LG(F3))))  &mt LEFT_ALT LS(LA(LC(LG(F2))))  &mt LEFT_GUI LS(LA(LC(LG(F1))))  &kp LS(LA(LC(LG(F5))))    &kp MINUS  &kp EQUAL  &kp BACKSLASH  &kp GRAVE  &kp NUBS
+&trans  &kp LS(LA(LC(LG(F10))))            &kp LS(LA(LC(LG(F9))))        &kp LS(LA(LC(LG(F8))))           &kp LS(LA(LC(LG(F7))))           &kp LS(LA(LC(LG(F6))))    &kp UNDER  &kp PLUS   &kp PIPE       &kp TILDE  &trans     &trans
                                                                          &trans                           &trans                           &trans                    &trans     &trans     &trans
             >;
         };
