@@ -234,10 +234,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &trans                      &kp N7                 &kp N8                    &kp N9                    &trans    &trans      &kp PAGE_UP       &kp UP            &kp PAGE_DOWN     &trans
-        &mt LEFT_SHIFT KP_NUMBER_0  &mt LCTRL KP_NUMBER_4  &mt LEFT_ALT KP_NUMBER_5  &mt LEFT_GUI KP_NUMBER_6  &trans    &kp HOME    &kp LEFT_ARROW    &kp DOWN_ARROW    &kp RIGHT_ARROW   &kp END
-&trans  &trans                      &kp N1                 &kp N2                    &kp N3                    &trans    &kp LG(N5)  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &trans
-                                                           &trans                    &kp LEFT_GUI              &trans    &trans      &trans            &trans
+        &trans                      &kp N7                 &kp N8                    &kp N9                    &kp PLUS      &trans      &kp PAGE_UP       &kp UP            &kp PAGE_DOWN     &trans
+        &mt LEFT_SHIFT KP_NUMBER_0  &mt LCTRL KP_NUMBER_4  &mt LEFT_ALT KP_NUMBER_5  &mt LEFT_GUI KP_NUMBER_6  &kp MINUS     &kp HOME    &kp LEFT_ARROW    &kp DOWN_ARROW    &kp RIGHT_ARROW   &kp END
+&trans  &trans                      &kp N1                 &kp N2                    &kp N3                    &kp PERIOD    &kp LG(N5)  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &trans
+                                                           &trans                    &kp LEFT_GUI              &trans        &trans      &trans            &trans
             >;
         };
 
@@ -282,19 +282,19 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &trans          &trans      &trans      &bt BT_NXT  &bt BT_CLR    &trans  &kp F7  &kp F8  &kp F9  &kp F12
-        &kp LEFT_SHIFT  &kp LG(N4)  &kp LG(N5)  &kp LG(N6)  &trans        &trans  &kp F4  &kp F5  &kp F6  &kp F11
-&trans  &trans          &kp LG(N1)  &kp LG(N2)  &kp LG(N3)  &trans        &trans  &kp F1  &kp F2  &kp F3  &kp F10  &trans
-                                    &trans      &trans      &trans        &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &trans    &trans  &kp F7  &kp F8  &kp F9  &kp F12
+        &trans  &trans  &trans  &trans  &trans    &trans  &kp F4  &kp F5  &kp F6  &kp F11
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp F1  &kp F2  &kp F3  &kp F10  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
 
         layer_5 {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans             &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans             &trans           &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &bt BT_SEL 0    &trans  &trans  &trans  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
+        &trans  &trans  &trans  &trans  &bt BT_SEL 1    &trans  &trans  &trans  &trans             &trans
+&trans  &trans  &trans  &trans  &trans  &bt BT_SEL 2    &trans  &trans  &trans  &trans             &trans           &trans
+                        &trans  &trans  &trans          &trans  &trans  &trans
             >;
         };
 
